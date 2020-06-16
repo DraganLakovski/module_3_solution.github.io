@@ -1,0 +1,155 @@
+/****** base rules ******/
+
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #e6eeff;
+}
+
+/* HEADER */
+#header-nav {
+  margin: 0;
+  padding: 0;
+  background-color: #cccc00;
+  border-radius: 0;
+  border: 0;
+  color: white;
+}
+
+.navbar-brand p {
+  color: black;
+  font-size: 30px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background-color: #66ccff;
+}
+/* END HEADER */
+
+/* Section */
+
+#home {
+  margin-bottom: 30px;
+}
+h1{
+  color: black;
+  font-weight: bold;
+}
+h3 {
+  font-weight: bold;
+}
+.row {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.item {
+  position: relative;
+	top: 0;
+	background-color: #cccccc;
+	margin: 15px;
+	padding: 25px;
+	border: 1px solid #000;
+}
+
+.item p {
+	margin-top: 45px;
+	text-align: justify;
+	font-size: 100%;
+  color: black;
+}
+
+#title-1 {
+  color: black;
+  font-weight: bold;
+}
+
+#title-2 {
+  color: black;
+  font-weight: bold;
+}
+
+#title-3 {
+  color: black;
+  font-weight: bold;
+}
+
+/****** SImple Responsive Framework. ******/
+
+/****** Desktop ******/
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+/****** Tablet ******/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-lg-4 {
+    width: 50%;
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+    float-left;
+  }
+}
+/****** Mobile ******/
+
+@media (max-width: 767px) {
+  .col-lg-4 {
+    width: 100%;
+    float: left;
+  }
+  
